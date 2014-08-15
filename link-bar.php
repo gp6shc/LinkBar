@@ -10,8 +10,6 @@
 defined('ABSPATH') or die("Nope.");
 
 function myplugin_activate() {
-	error_log("Im activated!");
-	
 	update_option("lb_icon_width", "54");
 	update_option("lb_icon_height", "54");
 	update_option("lb_icon_radius", "50%");
